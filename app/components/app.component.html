@@ -1,0 +1,9 @@
+<h1>My App</h1>
+
+<button ng-click="$ctrl.run()">Click me</button>
+
+<ul>
+   <li ng-repeat="contact in $ctrl.contacts">
+       <contact-details contact="contact" on-delete="$ctrl.onContactDeleted(contact)"></contact-details>
+   </li>
+</ul>

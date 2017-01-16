@@ -1,0 +1,28 @@
+{
+  "name": "modern-angular1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "gulp": "^3.9.1",
+    "systemjs": "^0.19.41",
+    "systemjs-plugin-css": "^0.1.32",
+    "systemjs-plugin-text": "0.0.9",
+    "typescript": "^2.1.5"
+  },
+  "devDependencies": {
+    "@types/angular": "^1.6.1",
+    "@types/node": "^7.0.0",
+    "http-server": "^0.9.0",
+    "node-sass": "^4.3.0",
+    "open": "0.0.5",
+    "shelljs": "^0.7.6",
+    "systemjs-builder": "^0.15.34"
+  }
+}
