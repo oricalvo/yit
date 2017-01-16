@@ -1,9 +1,14 @@
-<h1>My App</h1>
+<div class="site-menu">
+    <a ui-sref="home">Home</a>
+    <a ui-sref="about">About</a>
+</div>
 
-<button ng-click="$ctrl.run()">Click me</button>
+<!--<button ng-click="$ctrl.run()">Click me</button>-->
 
-<ul>
-   <li ng-repeat="contact in $ctrl.contacts">
-       <contact-details contact="contact" on-delete="$ctrl.onContactDeleted(contact)"></contact-details>
-   </li>
-</ul>
+<!--<ul>-->
+   <!--<li ng-repeat="contact in $ctrl.contacts">-->
+       <!--<contact-details contact="contact" on-delete="$ctrl.onContactDeleted(contact)"></contact-details>-->
+   <!--</li>-->
+<!--</ul>-->
+
+<div ui-view></div>

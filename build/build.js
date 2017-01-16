@@ -41,6 +41,14 @@ function dev() {
     return Promise.resolve()
         .then(compileTS)
         .then(compileSASS)
+        .then(runServer)
+        .then(runBrowser);
+}
+
+function prod() {
+    return Promise.resolve()
+        .then(compileTS)
+        .then(compileSASS)
         .then(bundle)
         .then(runServer)
         .then(runBrowser);

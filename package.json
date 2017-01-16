@@ -5,12 +5,14 @@
   "main": "index.js",
   "scripts": {
     "start": "gulp dev",
+    "sass": "node-sass ./app --recursive --output ./app & node-sass ./app --watch --recursive --output ./app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "angular": "^1.5.8",
+    "angular-ui-router": "^0.3.2",
     "gulp": "^3.9.1",
     "systemjs": "^0.19.41",
     "systemjs-plugin-css": "^0.1.32",
